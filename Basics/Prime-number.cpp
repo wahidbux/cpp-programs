@@ -1,4 +1,6 @@
 //C++ Program to check whether a number is prime or not
+# Time Complexity: O(sqrt(num))
+# Space Complexity: O(1)
 
 #include <bits/stdc++.h>
 using namespace std;
