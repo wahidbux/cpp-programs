@@ -15,7 +15,8 @@
 ---
 
 ## 📂 Repository Structure
-```
+
+```bash
 📦 Cpp-Programs-Hacktoberfest2025
  ┣ 📂 Basics        # Simple C++ programs
  ┣ 📂 Algorithms    # Searching, Sorting, etc.
@@ -27,11 +28,14 @@
 ---
 
 ## 🌟 How to Contribute
+
 1. 🍴 **Fork** this repository  
 2. 📥 **Clone** your fork  
+
    ```bash
    git clone https://github.com/pawanrajsingh2088/cpp-programs.git
    ```
+
 3. 🛠️ Add your C++ program in the correct folder (`Basics/`, `Algorithms/`, `DSA/`, `Projects/`)  
 4. ✅ Commit & Push your changes  
 5. 🔁 Open a **Pull Request (PR)**  
@@ -39,6 +43,7 @@
 ---
 
 ## 🎯 Contribution Guidelines
+
 ✔️ Code must be **well-structured & readable**  
 ✔️ Use **meaningful filenames** → `bubble_sort.cpp` not `bs.cpp`  
 ✔️ Add **comments** to explain logic  
@@ -48,6 +53,7 @@
 ---
 
 ## 🏆 Why Contribute?
+
 - 📚 Improve your **C++ & DSA skills**  
 - 🌐 Learn **Git & GitHub workflows**  
 - 🤝 Be part of the **open-source community**  
@@ -56,6 +62,7 @@
 ---
 
 ## 🔥 Contributors
+
 Thanks to all amazing contributors ❤️  
 
 <p align="center">
@@ -67,6 +74,7 @@ Thanks to all amazing contributors ❤️
 ---
 
 ## 💖 Support This Project
+
 ⭐ Star this repo  
 🍴 Fork it  
 💻 Contribute  
