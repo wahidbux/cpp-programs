@@ -1,0 +1,21 @@
+import express from "express";
+import shortid from "shortid";
+const app = express();
+app.use(express.json());
+
+let urls = {};
+
+app.post("/shorten", (req, res) => {
+  const { url } = req.body;
+  const id = shortid.generate();
+  urls[id] = url;
+  res.json({ shortUrl: `http://localhost:3009/${id}` });
+});
+
+app.get("/:id", (req, res) => {
+  const longUrl = urls[req.params.id];
+  if (!longUrl) return res.status(404).json({ message: "URL not found" });
+  res.redirect(longUrl);
+});
+
+app.listen(3009, () => console.log("URL Shortener API on 3009"));
